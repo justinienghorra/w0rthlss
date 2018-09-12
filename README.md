@@ -1,6 +1,8 @@
 # ![W0RTHLE$$](static/img/w0rthlss.png)
 
-Music sharing website
+**Description** : Music sharing website
+
+**Version** : 1.0
 
 **URL** : [w0rthlss.org](https://w0rthlss.org)
 
