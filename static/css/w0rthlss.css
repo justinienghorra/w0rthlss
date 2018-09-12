@@ -1,0 +1,134 @@
+/*/////////////////////// Redefinition ///////////////////////*/
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-image: url("../img/w0rthlss.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-y: 64px;
+}
+
+p {
+  font-size:16px;
+}
+
+.btn {
+  margin-top:.3rem;
+}
+
+.sidenav li {
+  line-height: 64px;
+}
+
+.nav-content {
+  position: relative;
+  z-index: 1;
+}
+
+nav .sidenav-trigger, nav a.sidenav-trigger {
+  line-height: 76px;
+  height: 56px;
+}
+
+nav.nav-center ul {
+  text-align: center;
+}
+
+nav.nav-center ul li {
+  display: inline;
+}
+
+nav.nav-center ul li a {
+  display: inline-block;
+}
+
+/*/////////////////////// Custom ///////////////////////*/
+
+#main-footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+#logo, #twi {
+  vertical-align: middle;
+  display: inline-block;
+  height: 80%;
+  font-size: 0rem;
+}
+
+#logo, #twi, #menu-trigger, #menu-close {
+  fill: #bdbdbd;
+}
+
+#logo, #twi {
+  line-height: 54px;
+}
+
+#nav-close {
+  line-height: 50px;
+}
+
+.w0rthlss-content {
+  border-radius: 10px;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  padding-bottom: .5rem;
+}
+
+.too-large {
+  letter-spacing: 0.5rem;
+  font-variant: small-caps;
+}
+
+.playlist-buttons {
+  margin-bottom: 2%;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 1150px) {
+  .tabs .tab a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.playlists-show-hide {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.playlists-show-hide.ng-hide {
+  opacity: 0;
+}
+
+.playlist {
+  margin-bottom: 2%;
+}
+
+.no-select {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

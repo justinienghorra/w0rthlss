@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>W0RTHLE$$</title>
+
+  <link rel="icon" href="static/img/logo.png" />
+  <!-- CSS  -->
+  <link async href="static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link async href="static/css/w0rthlss.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!--  Scripts-->
+  <script defer src="static/js/lib/jquery-2.1.1.min.js"></script>
+  <script defer src="static/js/lib/angular.min.js"></script>
+  <script defer src="static/js/lib/angular-ui-router.min.js"></script>
+  <script defer src="static/js/lib/angular-animate.min.js"></script>
+  <script defer src="static/js/lib/materialize.min.js"></script>
+  <script defer src="static/js/w0rthlss.js"></script>
+</head>
+
+<body class="black" ng-app="w0rthlssApp" ng-controller="MainController">
+
+  <nav class="black" class="nav-extended">
+    <div class="nav-wrapper container">
+      <a href="/" class="brand-logo waves-effect waves-light btn-large black">
+        <svg version="1.1" id="logo" viewBox="0 0 7350 5950" preserveAspectRatio="xMinYMin meet">
+          <g>
+            <path d="M271 5813c-38-19-70-78-71-130 0-99 337-802 688-1433 389-702 736-1276 1030-1710 69-102 168-248 220-325 314-461 597-803 810-978 38-30 62-35 62-11 0 27-66 159-151 301-45 76-104 176-132 223-28 47-137 220-243 386-106 165-235 375-287 465-51 90-148 256-214 369-235 399-639 1125-921 1653l-42 79 278-284c153-155 496-508 762-783 785-810 1401-1420 1911-1893 211-195 274-244 309-240 39 5 29 35-62 187-92 153-225 410-282 546-21 50-104 261-185 470-143 368-331 926-431 1285-22 80-43 152-46 160-4 13-4 13 9 0 8-8 66-83 131-166 359-466 1184-1413 1761-2024 608-643 1646-1606 1960-1820 112-76 155-94 155-67 0 18-152 186-396 437-109 113-248 260-309 326-60 66-266 287-456 490-631 674-995 1081-1285 1434-223 273-453 545-826 976-389 451-756 904-949 1174-39 55-83 107-98 114-67 34-161 25-198-19-42-48-33-107 62-425 268-891 373-1195 584-1678 217-498 319-709 433-897l48-80-56 60c-143 152-761 845-1163 1304-701 800-1093 1237-1361 1519-280 296-639 693-698 772-107 145-174 219-214 235-49 19-94 19-137-2z"
+            />
+          </g>
+        </svg>
+      </a>
+
+      <ul class="right hide-on-med-and-down">
+        <li>
+          <a ng-click="playlists=!playlists" class="waves-effect waves-light btn black grey-text text-lighten-1">Nos playlists</a>
+        </li>
+        <li>
+          <a ui-sref="circonstances" class="waves-effect waves-light btn black grey-text text-lighten-1">Circonstances</a>
+        </li>
+        <li>
+          <a ui-sref="about" class="waves-effect waves-light btn black grey-text text-lighten-1">A propos</a>
+        </li>
+        <li>
+          <a href="https://www.twitter.com/w0rthlss" target="_blank" class="waves-effect waves-light btn black">
+            <svg version="1.1" id="twi" viewBox="0 0 400 400" preserveAspectRatio="xMinYMin meet">
+              <g>
+                <path d="M153.6 301.6c94.3 0 145.9-78.2 145.9-145.9 0-2.2 0-4.4-0.1-6.6 10-7.2 18.7-16.3 25.6-26.6 -9.2 4.1-19.1 6.8-29.5 8.1 10.6-6.3 18.7-16.4 22.6-28.4 -9.9 5.9-20.9 10.1-32.6 12.4 -9.4-10-22.7-16.2-37.4-16.2 -28.3 0-51.3 23-51.3 51.3 0 4 0.5 7.9 1.3 11.7 -42.6-2.1-80.4-22.6-105.7-53.6 -4.4 7.6-6.9 16.4-6.9 25.8 0 17.8 9.1 33.5 22.8 42.7 -8.4-0.3-16.3-2.6-23.2-6.4 0 0.2 0 0.4 0 0.7 0 24.8 17.7 45.6 41.1 50.3 -4.3 1.2-8.8 1.8-13.5 1.8 -3.3 0-6.5-0.3-9.6-0.9 6.5 20.4 25.5 35.2 47.9 35.6 -17.6 13.8-39.7 22-63.7 22 -4.1 0-8.2-0.2-12.2-0.7C97.7 293.1 124.7 301.6 153.6 301.6"
+                />
+              </g>
+            </svg>
+          </a>
+        </li>
+      </ul>
+
+      <ul id="nav-mobile" class="sidenav black grey-text text-lighten-1">
+        <li>
+          <div class="row">
+            <div class="col s4">
+              <a data-target="nav-mobile" class="no-select sidenav-close btn black" id="nav-close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path id="menu-close" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+                </svg>
+              </a>
+            </div>
+            <div class="col s4">
+              <a href="/" class="sidenav-close grey-text text-lighten-1">Accueil</a>
+            </div>
+
+          </div>
+        </li>
+
+        <li>
+          <a ui-sref="circonstances" class="sidenav-close grey-text text-lighten-1">Circonstances</a>
+        </li>
+        <li>
+          <a ui-sref="lourdlundi" class="sidenav-close grey-text text-lighten-1">Lourd Lundi</a>
+        </li>
+        <li>
+          <a ui-sref="macabremardi" class="sidenav-close grey-text text-lighten-1">Macabre Mardi</a>
+        </li>
+        <li>
+          <a ui-sref="meconnumercredi" class="sidenav-close grey-text text-lighten-1">M&eacute;connu Mercredi</a>
+        </li>
+        <li>
+          <a ui-sref="joyeuxjeudi" class="sidenav-close grey-text text-lighten-1">Joyeux Jeudi</a>
+        </li>
+        <li>
+          <a ui-sref="visuelvendredi" class="sidenav-close grey-text text-lighten-1">Visuel Vendredi</a>
+        </li>
+        <li>
+          <a ui-sref="sensuelsamedi" class="sidenav-close grey-text text-lighten-1">Sensuel Samedi</a>
+        </li>
+        <li>
+          <a ui-sref="douxdimanche" class="sidenav-close grey-text text-lighten-1">Doux Dimanche</a>
+        </li>
+      </ul>
+      <a data-target="nav-mobile" class="btn black no-select sidenav-trigger">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path id="menu-trigger" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="playlists-show-hide hide-on-med-and-down" ng-show="playlists">
+      <div class="nav-content">
+        <ul class="tabs tabs-transparent">
+          <li class="tab">
+            <a ui-sref="lourdlundi">Lourd Lundi</a>
+          </li>
+          <li class="tab">
+            <a ui-sref="macabremardi">Macabre Mardi</a>
+          </li>
+          <li class="tab">
+            <a ui-sref="meconnumercredi">M&eacute;connu Mercredi</a>
+          </li>
+          <li class="tab">
+            <a ui-sref="joyeuxjeudi">Joyeux Jeudi</a>
+          </li>
+          <li class="tab">
+            <a ui-sref="visuelvendredi">Visuel Vendredi</a>
+          </li>
+          <li class="tab">
+            <a ui-sref="sensuelsamedi">Sensuel Samedi</a>
+          </li>
+          <li class="tab">
+            <a ui-sref="douxdimanche">Doux Dimanche</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+  </nav>
+
+  <div ui-view id="main-container">
+
+  </div>
+
+</body>
+
+</html>

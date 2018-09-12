@@ -1,0 +1,51 @@
+{
+	"/lourdlundi": {
+		"title": "Lourd Lundi",
+		"summary": "\u00AB 7:00 \u2014 R\u00E9veil imp\u00E9tueux ! \u00BB",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/7hnhtMsinxb8M5Tyzj8ub0",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-P7a8oLab5FVNBJSz0SKa23",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/589947564&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	},
+	"/macabremardi": {
+		"title": "Macabre Mardi",
+		"summary": "\u00AB 18:00 \u2014 Sombre r\u00E9confort \u00BB",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/5rMHgWz9dZflCXprdYYqAR",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-OUGq26bvL7gpeywLLuUF8e",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/589958964&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	},
+	"/meconnumercredi": {
+		"title": "M\u00E9connu Mercredi",
+		"summary": "\u00AB 16:00 \u2014 L'Eldorado des tr\u00E9fonds musicaux \u00BB",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/4uG2PhIPDHe77XAQvxTQWm",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-OV4RwRrNzf6hpiKh5Ry4xK",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/589964643&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	},
+	"/joyeuxjeudi": {
+		"title": "Joyeux Jeudi",
+		"summary": "\u00AB 13:00 \u2014 It's Party Time ! \u00BB",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/5Oq6gLOUlOlcSMEt9c4EqR",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-O-JDwO6z24WFXb0v9XPPZO",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/589969506&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	},
+	"/sensuelsamedi": {
+		"title": "Sensuel Samedi",
+		"summary": "\u00AB 22:00 \u2014 Pillowtalk \u00BB",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/1uzlZJKchYQpHSqNqNGihv",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-Npjr-9cgTR0pBzBk-espB3",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/590968410&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	},
+	"/douxdimanche": {
+		"title": "Doux Dimanche",
+		"summary": "\u00AB 14:00 \u2014 Le repos du guerrier \u00BB",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/0tHvi2iXgsll69wkMjpwpC",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-NB5nIBTNfj1O0UquIVTExM",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/591047187&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	},
+	"/circonstances": {
+		"title": "Circonstances",
+		"summary": "Par diverses circonstances vous avez manqu\u00E9 certains de nos tweets de la semaine pr\u00E9c\u00E9dente ? Pas de panique, voici la playlist qui vous permettra de rattraper votre retard musical. Elle sera mise \u00E0 jour tous les dimanches dans l'apr\u00E8s-midi !",
+		"spotifyLink": "https://open.spotify.com/embed/user/1pq2efbb6t2qgtmjygwrj204m/playlist/10CNnwFEf5kIDRCnDwuYVS",
+		"youtubeLink": "https://www.youtube-nocookie.com/embed/videoseries?list=PL6ncNwqWWJ-M0dOskwlQMziYNnurNfV99",
+		"soundcloudLink": "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/591818217&color=%23969696&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+	}
+}
