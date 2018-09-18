@@ -4,29 +4,35 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta name="description" content="Playlists musicales pour de multiples ambiances. Lourd Lundi, Macabre Mardi, Meconnu Mercredi, Joyeux Jeudi, Visuel Vendredi, Sensuel Samedi, Doux Dimanche" />
   <title>W0RTHLE$$</title>
+  
   <meta property="og:title" content="W0RTHLE$$" />
   <meta property="og:type" content="website" />
+  <meta property="og:description" content="Playlists musicales pour de multiples ambiances. Notre Twitter : @w0rthlss" />
   <meta property="og:url" content="https://w0rthlss.org/" />
   <meta property="og:image" content="https://www.w0rthlss.org/static/img/w0rthlss.png" />
 
   <link rel="icon" href="static/img/logo.png" />
   <!-- CSS  -->
+  <!-- build:css static/css/style.min.css async -->
   <link async href="static/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection" />
   <link async href="static/css/w0rthlss.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <!-- endbuild -->
   <!--  Scripts-->
-  <script defer src="static/js/lib/jquery-2.1.1.min.js"></script>
-  <script defer src="static/js/lib/angular.min.js"></script>
-  <script defer src="static/js/lib/angular-ui-router.min.js"></script>
-  <script defer src="static/js/lib/angular-animate.min.js"></script>
-  <script defer src="static/js/lib/materialize.min.js"></script>
-  <script defer src="static/js/w0rthlss.js"></script>
+  <script src="static/js/lib/jquery-2.1.1.min.js" defer></script>
+  <script src="static/js/lib/angular.min.js" defer></script>
+  <script src="static/js/lib/angular-ui-router.min.js" defer></script>
+  <script src="static/js/lib/angular-animate.min.js" defer></script>
+  <script src="static/js/lib/materialize.min.js" defer></script>
+  <!-- build:js static/js/app.min.js defer -->
+  <script src="static/js/w0rthlss.js"></script>
+  <!-- endbuild-->
 </head>
 
 <body class="black" ng-app="w0rthlssApp" ng-controller="MainController">
 
-  <nav class="black" class="nav-extended">
+  <nav class="black">
     <div class="nav-wrapper container">
       <a href="/" class="brand-logo waves-effect waves-light btn-large black">
         <svg version="1.1" id="logo" viewBox="0 0 7350 5950" preserveAspectRatio="xMinYMin meet">

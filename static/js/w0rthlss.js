@@ -24,14 +24,14 @@ app.config(function ($stateProvider, $urlRouterProvider, $sceDelegateProvider) {
 
 app.controller('MainController', function ($http, $scope) {
     $scope.playlists = false;
-    $scope.ShowHidePlaylists = () => { $scope.playlists = $scope.playlists ? false : true; }
+    $scope.ShowHidePlaylists = function () { $scope.playlists = $scope.playlists ? false : true; }
 
     $scope.platform = 3;
-    $scope.Youtube = () => { $scope.platform = 1; }
-    $scope.Soundcloud = () => { $scope.platform = 2; }
-    $scope.Spotify = () => { $scope.platform = 3; }
+    $scope.Youtube = function () { $scope.platform = 1; }
+    $scope.Soundcloud = function () { $scope.platform = 2; }
+    $scope.Spotify = function () { $scope.platform = 3; }
 
-    $http.get('static/js/data.json').then((res) => {
+    $http.get('static/js/data.json').then(function (res) {
         $scope.data = res.data;
     });
 });
