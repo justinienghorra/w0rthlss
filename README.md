@@ -2,7 +2,7 @@
 
 **Description** : Music sharing website
 
-**Version** : 1.0.1
+**Version** : 1.1.2
 
 **URL** : [w0rthlss.org](https://w0rthlss.org)
 
