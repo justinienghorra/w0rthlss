@@ -1,3 +1,2 @@
 User-Agent: *
 Disallow : /static/
-Disallow : /404.html
